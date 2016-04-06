@@ -1,0 +1,332 @@
+/* css document*/
+
+body {
+	background-color:#c2c2a3;
+	height:justify;
+}
+
+.container {
+	width:100%;
+	height:justify;
+	background-color:#c2c2a3;
+}
+
+.mainnav {
+	margin-left:4%;
+	background-color: #404040;
+	width:100%;
+	height:justify;
+}
+
+.nothing{
+	width:100%;
+	height:25px;
+	background-color:none;
+}
+
+ul	{
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+li	a	{ 
+font-size:20px;
+display:	block;
+width:	320px;
+height:40px;
+background-color:#404040;
+color:white;
+text-decoration:none;
+}
+
+/*	Consider changing link colour to beige	*/
+
+li	a:hover {
+background-color: white;
+color:	black;
+}
+
+ul {
+border:	1px	solid #555; 
+}
+
+li	{
+text-align:	center;
+border:	1px	solid	#555; 
+}
+
+
+li	{
+display: inline;
+}
+
+li	{
+float:	left;
+}
+a	{
+display:	block;
+padding:	8px;
+background-color:	#dddddd;
+}
+
+.photopage {
+	width:800px;
+	height:2500px;
+	margin-left:25%;
+	margin-top:10%;
+	background-color:#c2c2a3;
+	/*border-style: solid;
+    border-width: 5px;*/
+    margin-top:100px;
+}
+
+.phototext {
+	height:justify;
+	display:block;
+	float:left;
+	text-align:center;
+	width:600px;
+	margin-left:100px;
+	font-size:22px;
+	font-family:Calibri;
+	background-color:#C0C0C0;
+}
+
+.photo1 {
+	width:560px;
+	height:400px;
+	margin:2px;
+	background-image:images/field.jpg;
+	display:inline-block;
+	float:left;
+	vertical-align:top;
+	background-color:#C0C0C0;
+	/*border-style: solid;
+    border-width: 5px; */
+}
+
+.smallphototext {
+	width:200px;
+	height:400px;
+	font-size:20px;
+	display:inline-block;
+	float:right;
+	vertical-align:top;
+	
+	/*border-style: solid;
+    border-width: 5px;*/
+}
+
+.footer {
+
+    bottom: 0;
+    width: 100%;
+	height:50px;
+    background-color:#404040;
+	position:fixed;
+    color:white;
+    position: relative;
+    text-align:center;
+	padding:5px;
+	bottom:30px;
+	
+	 
+}
+
+footer{
+	width:100%;
+	height:200px;
+    background-color:black;
+	 position:fixed;
+    color:red;
+    
+    text-align:center;
+	padding:5px;	
+	
+}
+
+.hometext{
+	width:100%;
+	background-color:#c2c2a3;
+	color:white;
+	font-family:Calibri;
+	text-align:center;
+	
+}
+
+.abouttext{
+	height:100%;
+	display:block;
+	float:left;
+	text-align:center;
+	width:650px;
+	margin-left:100px;
+	font-size:22px;
+	font-family:Calibri;
+	color:white;
+	background-color:white;
+	margin-left:200px;
+	margin-top:700px;
+	background-color:#404040;
+
+	
+}
+
+.body{
+	background-color:red;
+}
+
+.bgroundimage1 {
+	width:100%;
+	position:relative;
+}
+
+h4 {
+	position:absolute;
+   top: 350px; 
+   left: 0; 
+   width: 100%; 
+   background-color:#404040;
+   margin-left:18%;
+   margin-top:75px;
+   color:white;
+   width:65%;
+   height:500px;
+   font-family:Calibri;
+   font-size:25px;
+   text-align: center;
+   padding:20px;
+   /*opacity: 0.5;*/
+}
+	
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+
+.bgroundimage {
+	background-image:url(images/lines.JPG);
+	width:100%;
+	height:400px;
+}
+
+h1 { 
+	font-size:90px;
+	font-family:Arial;
+   position: absolute; 
+   top: 420px; 
+   left: 0; 
+   width: 100%; 
+   text-outline: 60px black;
+}
+
+
+.gradient {
+  background-image:
+    radial-gradient(
+      circle,
+      white,
+     #c2c2a3
+    );
+}
+
+.linkcontainer {
+	margin-left:30%;
+	height:250px;
+	width:750px;
+	background-color:#c2c2a3;
+	
+}
+
+.imglink {
+	display:inline-block;
+	float:left;
+	width:250px;
+	height:250px;
+	background-color:#c2c2a3;
+}
+
+.gallery {
+	width:100%;
+	height:100px;
+	color:white;
+	background-color:#c2c2a3;
+}
+
+.drawing {
+	width:100%;
+	margin-top:200px;
+	color:white;
+	background-color:#c2c2a3;
+}
+
+.drawtext1 {
+	width:55%;
+	height:100px;
+	background-color:#c2c2a3;
+	color:black;
+	margin-left:25%;
+	font-family:Calibri;
+	text-align:center;
+}
+
+.drawing2 {
+	height:700px;
+	width:600px;
+	margin-left:30%;
+	margin-top:200px;
+	background-image: url("images/seasonschange.png");
+}
+
+.contactinfo {
+	width:50%;
+	height:400px;
+	background-color:#c2c2a3;
+	color:black;
+	margin-left:25%;
+	margin-top:10%;
+	font-family:Calibri;
+	text-decoration:none;
+	text-align:center;
+	
+}
+
+.video {
+	width:1100px;
+	height:500px;
+	background-color:none;
+	
+}
+
+.profiler {
+	margin-left:45%;
+	margin-top:90px;
+	width:350px;
+	display:block;
+	float:left;
+	background-color:none;
+	border-radius:100px;
+	clear:both;
+	
+}
+
+.abouttext1 {
+	margin-top:500px;
+	margin-left:400px;
+	
+}
+
+.circular {
+
+	width: 350px;
+	border-radius: 150px;
+	
+}
