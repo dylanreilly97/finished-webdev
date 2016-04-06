@@ -13,7 +13,7 @@ body {
 
 .mainnav {
 	margin-left:4%;
-	background-color: #ffff99;
+	background-color: #404040;
 	width:100%;
 	height:justify;
 }
@@ -35,7 +35,7 @@ font-size:20px;
 display:	block;
 width:	245px;
 height:40px;
-background-color:#4d4833;
+background-color:#404040;
 color:white;
 text-decoration:none;
 }
@@ -78,6 +78,7 @@ background-color:	#dddddd;
 	background-color:#c2c2a3;
 	/*border-style: solid;
     border-width: 5px;*/
+    margin-top:100px;
 }
 
 .phototext {
@@ -122,7 +123,7 @@ background-color:	#dddddd;
     bottom: 0;
     width: 100%;
 	height:50px;
-    background-color:#4d4833;
+    background-color:#404040;
 	position:fixed;
     color:white;
     position: relative;
@@ -167,6 +168,7 @@ footer{
 	background-color:white;
 	margin-left:200px;
 	margin-top:700px;
+	background-color:#404040;
 
 	
 }
@@ -182,10 +184,10 @@ footer{
 
 h4 {
 	position:absolute;
-   top: 200px; 
+   top: 350px; 
    left: 0; 
    width: 100%; 
-   background-color:#4d4833;
+   background-color:#404040;
    margin-left:250px;
    margin-top:75px;
    color:white;
@@ -260,7 +262,7 @@ h1 {
 
 .drawing {
 	width:100%;
-	
+	margin-top:200px;
 	color:white;
 	background-color:#c2c2a3;
 }
@@ -271,7 +273,6 @@ h1 {
 	background-color:#c2c2a3;
 	color:black;
 	margin-left:25%;
-	margin-top:10%;
 	font-family:Calibri;
 	text-align:center;
 }
@@ -280,7 +281,7 @@ h1 {
 	height:700px;
 	width:600px;
 	margin-left:30%;
-	margin-top:8%;
+	margin-top:200px;
 	background-image: url("images/seasonschange.png");
 }
 
@@ -305,11 +306,14 @@ h1 {
 }
 
 .profiler {
-	margin-left:600px;
+	margin-left:420px;
+	margin-top:90px;
+	width:200px;
 	display:block;
 	float:left;
 	background-color:none;
-	margin: black 20px
+	border-radius:100px;
+	clear:both;
 	
 }
 
@@ -317,4 +321,8 @@ h1 {
 	margin-top:500px;
 	margin-left:400px;
 	
+}
+
+.circular {
+border-radius:150px;
 }
